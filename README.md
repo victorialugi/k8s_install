@@ -16,6 +16,7 @@ sudo kubeadm init --kubernetes-version=v1.33.13 --apiserver-advertise-address=<M
 ## Сеть подов
 Установлен Flannel.
 kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
+
 Манифест: https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
 
 ## Подключение worker
@@ -24,4 +25,4 @@ sudo kubeadm join <MASTER_INTERNAL_IP>:6443 --token  --discovery-token-ca-cert-h
 ## Результат
 kubectl get nodes -o wide
 
-![Название скриншота 1](ссылка на скриншот 1)
+![1.png](https://github.com/victorialugi/k8s_helm/blob/main/2.png)
