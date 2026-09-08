@@ -13,7 +13,7 @@ etcd запущен на master.
 ## Инициализация master
 sudo kubeadm init --kubernetes-version=v1.33.13 --apiserver-advertise-address=<MASTER_INTERNAL_IP> --pod-network-cidr=10.244.0.0/16
 
-##Сеть подов
+## Сеть подов
 Установлен Flannel.
 kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
 Манифест: https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
