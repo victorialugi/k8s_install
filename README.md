@@ -25,4 +25,4 @@ sudo kubeadm join <MASTER_INTERNAL_IP>:6443 --token  --discovery-token-ca-cert-h
 ## Результат
 kubectl get nodes -o wide
 
-![1.png](https://github.com/victorialugi/k8s_helm/blob/main/2.png)
+![1.png](https://github.com/victorialugi/k8s_install/blob/main/1.png)
